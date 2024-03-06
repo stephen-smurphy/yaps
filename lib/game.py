@@ -52,7 +52,7 @@ class Game:
         self.surface_rect.centery = self.screen.get_rect().centery
 
         self.img_background = pygame.image.load(
-            data.filepath("title", "background.jpg"))
+            data.filepath("title", "background2.jpg"))
         self.img_background = pygame.transform.smoothscale(self.img_background,
                                                            util.scale(self.img_background,
                                                                       width=self.screen.get_rect().width))
